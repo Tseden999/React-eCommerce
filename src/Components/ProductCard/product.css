@@ -1,0 +1,8 @@
+.Products {
+    width: 180px;
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+}
