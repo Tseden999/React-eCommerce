@@ -7,7 +7,7 @@ const ProductCard = ({ name, image, price }) => {
             </div>
             <div className="text-part">
                 <h6>{name} </h6>
-                <span >${price}</span>
+                <span >NPR {price}</span>
                 <button type="button" className="btn btn-dark">Add to cart</button>
             </div>
         </div>

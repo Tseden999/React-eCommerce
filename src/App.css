@@ -63,3 +63,10 @@ footer {
 .links {
   text-align: center;
 }
+
+/* Carousels/index.jsx */
+.bannerImage {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}

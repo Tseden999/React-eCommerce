@@ -1,15 +1,17 @@
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FiShoppingCart } from "react-icons/fi";
+import { FaRegHeart } from "react-icons/fa";
+
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-success-subtle">
+    <Navbar expand="lg" >
       <Container fluid>
-        <Navbar.Brand href="#"><h1>Dolma Clothing</h1></Navbar.Brand>
+        <Navbar.Brand href="#"><img src='/images/LOGO.jpg' height="40px" ></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,17 +20,10 @@ function NavBar() {
             navbarScroll
           >
             <Nav.Link href="#action1">New Arrivals</Nav.Link>
-            <Nav.Link href="#action2">Popular this week</Nav.Link>
-            <NavDropdown title="Product" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">View</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Add to cart
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                check-out
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#action2">Trending</Nav.Link>
+            <Nav.Link href="#action2">Women</Nav.Link>
+            <Nav.Link href="#action2">About us</Nav.Link>
+            <Nav.Link href="#action2">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -37,8 +32,9 @@ function NavBar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
           </Form>
+          <FiShoppingCart style={{ fontSize: "30px" }} className='mx-2' />
+          <FaRegHeart style={{ fontSize: "30px" }} className='mx-2' />
         </Navbar.Collapse>
       </Container>
     </Navbar>
