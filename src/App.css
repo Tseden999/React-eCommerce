@@ -1,0 +1,72 @@
+.clothes_size {
+  font-size: 90px;
+}
+
+.category {
+  padding: 10px;
+  background-color: #FEFEFE;
+
+}
+
+.category-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  background-color: #FEFEFE;
+
+}
+
+.category-card {
+  display: flex;
+  background-color: #F0F0F0;
+  height: 130px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+p {
+  padding: 10px;
+}
+
+.button {
+  border-radius: 5px;
+
+}
+
+
+.show-list {
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+}
+
+.show-list-card {
+  display: flex;
+  background-color: #F0F0F0;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer {
+  height: 300px;
+  background-color: dimgray;
+  color: white;
+}
+
+.links {
+  text-align: center;
+}
+
+/* Carousels/index.jsx */
+.bannerImage {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
