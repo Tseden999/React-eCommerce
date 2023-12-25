@@ -22,8 +22,8 @@ function NavBar() {
             <Nav.Link href="#action1">New Arrivals</Nav.Link>
             <Nav.Link href="#action2">Trending</Nav.Link>
             <Nav.Link href="#action2">Women</Nav.Link>
-            <Nav.Link href="#action2">About us</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            <Nav.Link href="/about">About us</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
