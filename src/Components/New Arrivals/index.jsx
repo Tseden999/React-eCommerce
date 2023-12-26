@@ -8,11 +8,10 @@ function NewArrival() {
         <div>
             <NavBar />
             <div className='p-2' >
-                <h4>New Arrivals</h4>
-                <div className='p-3'>
-                    <img src='/images/NewArrivals.jpeg' height={500}></img>
+                <div className='bannerImage p-5' style={{ backgroundImage: 'url("/images/NewArrivals.jpeg")' }}>
                 </div>
-                <div className='d-flex flex-wrap gap-4 p-3'>
+                <h2>New Arrivals</h2>
+                <div className='d-flex flex-wrap gap-4 p-4'>
                     <ProductCard name="Long Wool top" image="/images/LONG WOOL TOP.jpeg" price={10.57} />
                     <ProductCard name="BALMAIN" image="/images/BALMAIN.jpeg" price={9.57} />
                     <ProductCard name="Cady suit" image="/images/CADY SUIT..jpeg" price={10.57} />

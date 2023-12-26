@@ -66,9 +66,10 @@ footer {
 
 /* Carousels/index.jsx */
 .bannerImage {
-  height: 500px;
+  height: 650px;
   width: 100%;
   background-size: cover;
+
 }
 
 .AboutUs {
