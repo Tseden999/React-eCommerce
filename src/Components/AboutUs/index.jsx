@@ -14,15 +14,14 @@ const AboutUs = () => {
             </div>
             <div className='d-flex mt-5'>
                 <div className='w-50 p-5'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam unde saepe accusamus expedita deleniti tempore sapiente beatae nam incidunt modi, quod in.
-                        Eum ad distinctio dignissimos asperiores, rem fugiat totam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam unde saepe accusamus expedita deleniti tempore sapiente beatae nam incidunt modi, quod in.
-                        Eum ad distinctio dignissimos asperiores, rem fugiat totam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam unde saepe accusamus expedita deleniti tempore sapiente beatae nam incidunt modi, quod in.
-                        Eum ad distinctio dignissimos asperiores, rem fugiat totam.</p>
+                    <p>"DolmuZone Clothing is our one-stop destination for
+                        stylish and trendy fashion. Our online platform offers a curated collection of high-quality clothing
+                        items, ranging from casual wear to elegant ensembles, ensuring that you can find the
+                        perfect outfit for any occasion. Explore our user-friendly website, featuring a seamless and intuitive
+                        design that enhances your shopping experience. DolmuZone prioritizes customer satisfaction, providing
+                        detailed product descriptions, sizing guides, and a secure checkout process. With regular updates to
+                        our inventory, we stay ahead of the latest fashion trends, offering customers a diverse and ever-evolving
+                        selection. Enjoy the convenience of shopping forthe latest styles from the comfort of your home with DolmuZone E-commerce Clothing Webpage."</p>
 
                 </div>
                 <div className='w-50'>
@@ -34,13 +33,17 @@ const AboutUs = () => {
                     <img src='/images/aboutus2.jpeg' ></img>
                 </div>
                 <div className='w-50'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam temporibus ullam et recusandae, eius tenetur, cum accusamus minima eveniet excepturi
-                        possimus libero nobis, exercitationem sequi soluta commodi ab ipsa quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam unde saepe accusamus expedita deleniti tempore sapiente beatae nam incidunt modi, quod in.
-                        Eum ad distinctio dignissimos asperiores, rem fugiat totam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam unde saepe accusamus expedita deleniti tempore sapiente beatae nam incidunt modi, quod in.
-                        Eum ad distinctio dignissimos asperiores, rem fugiat totam.</p>
+                    <p>
+                        "At DolmuZone Clothing, we redefine fashion with a fusion of comfort, style,
+                        and individuality. Our clothing line caters to diverse tastes, presenting a blend of
+                        timeless classics and cutting-edge designs. Embracing quality craftsmanship and attention
+                        to detail, each garment is crafted to inspire confidence and self-expression. From
+                        everyday essentials to statement pieces, DolmuZone empowers you to curate a wardrobe
+                        that reflects your unique personality. Navigate our website effortlessly, discovering a
+                        curated selection that evolves with the latest fashion trends. Experience the joy of seamless
+                        online shopping, where fashion meets convenience. DolmuZone Clothing is not just a brand;
+                        it's a lifestyle, inviting you to embrace your fashion journey with us."
+                    </p>
 
                 </div>
             </div>

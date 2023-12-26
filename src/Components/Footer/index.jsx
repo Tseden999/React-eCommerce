@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="d-flex justify-content-around bg-dark text-light p-5" >
             <div>
-                <h4>LOGO</h4>
+                <img src="/images/LOGO.jpg"></img>
                 <p>Unleash your Beauty Here!!!</p>
             </div>
             <div>

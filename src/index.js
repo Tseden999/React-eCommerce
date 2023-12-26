@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import AboutUs from './Components/AboutUs';
 import ContactUS from './Components/ConatctUs';
+import NewArrival from './Components/New Arrivals';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <ContactUS />,
+  },
+  {
+    path: "newArrivals",
+    element: <NewArrival />,
   },
 ]);
 

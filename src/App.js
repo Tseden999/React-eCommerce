@@ -56,6 +56,7 @@ function App() {
           <ProductCard name="Jeans" image="/images/V-waisted jeans.jpeg" price={9.57} />
           <ProductCard name="T-shirt" image="/images/T-SHIRT WITH LOGO-1.jpeg" price={9.57} />
         </div>
+
       </div>
       <div className='p-3'>
         <h4>Popular this week</h4>
@@ -68,7 +69,7 @@ function App() {
         </div>
       </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 
