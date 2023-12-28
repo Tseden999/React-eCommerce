@@ -21,6 +21,9 @@ function NewArrival() {
                     <ProductCard name="Sandle" image="/images/SANDAL WITH CRYSTALS.jpeg" price={10.57} />
                     <ProductCard name="Jeans" image="/images/V-waisted jeans.jpeg" price={9.57} />
                     <ProductCard name="T-shirt" image="/images/T-SHIRT WITH LOGO-1.jpeg" price={9.57} />
+                    <ProductCard name="Sandle" image="/images/SANDAL WITH CRYSTALS.jpeg" price={10.57} />
+                    <ProductCard name="Jeans" image="/images/V-waisted jeans.jpeg" price={9.57} />
+                    <ProductCard name="T-shirt" image="/images/T-SHIRT WITH LOGO-1.jpeg" price={9.57} />
                 </div>
             </div>
             <Footer />

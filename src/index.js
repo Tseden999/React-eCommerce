@@ -12,6 +12,8 @@ import {
 import AboutUs from './Components/AboutUs';
 import ContactUS from './Components/ConatctUs';
 import NewArrival from './Components/New Arrivals';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "newArrivals",
     element: <NewArrival />,
+  },
+  {
+    path: "login",
+    element: <Login />,
+  },
+  {
+    path: "signUp",
+    element: <SignUp />,
   },
 ]);
 

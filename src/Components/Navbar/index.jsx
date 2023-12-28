@@ -19,11 +19,13 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+            <Nav.Link href="#action2">Home</Nav.Link>
             <Nav.Link href="/newArrivals">New Arrivals</Nav.Link>
-            <Nav.Link href="#action2">Trending</Nav.Link>
             <Nav.Link href="#action2">Women</Nav.Link>
             <Nav.Link href="/about">About us</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/signUp">Sign Up</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

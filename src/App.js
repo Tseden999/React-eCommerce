@@ -44,7 +44,7 @@ function App() {
         </div>
       </div>
       <div className='p-2'>
-        <h4>New Arrivals</h4>
+        <h4>New Arrivals</h4>ß
         <div className='d-flex flex-wrap gap-4 p-3'>
           <ProductCard name="Long Wool top" image="/images/LONG WOOL TOP.jpeg" price={10.57} />
           <ProductCard name="BALMAIN" image="/images/BALMAIN.jpeg" price={9.57} />
