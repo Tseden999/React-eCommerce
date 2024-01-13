@@ -1,8 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
 
 function SignUp() {
+    const redirectPage = useNavigate();
     function SignUpForm() {
         alert("Sign up successful! Proceed to Login")
+        redirectPage('/login')
+
     }
     return (
         <div className='d-flex justify-content-center align-items-center' style={{ height: "100vh" }}>

@@ -35,7 +35,6 @@ const Footer = () => {
                     <FaTwitterSquare />
                 </div>
             </div>
-
         </div>
     )
 }
